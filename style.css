@@ -1,0 +1,127 @@
+body {
+  background-color: #ADEFD1FF;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#formarea {
+  background-color: #00203FFF;
+  color: #ADEFD1FF;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  padding-bottom: 16px;
+}
+
+
+#memes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 16px;
+}
+
+#submit-button {
+  border-radius: 4px;
+  background-color: #ADEFD1FF;
+  border: none;
+  color: #00203FFF;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  font-size: 13px;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#heading {
+  display: block;
+}
+
+#form-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 0 16px 16px;
+}
+
+#inputNames {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#inputFields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+#delete-meme-button {
+  position: absolute;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-family: 'Nunito';
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 120px;
+}
+
+.meme-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.meme-container:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.meme-image {
+  max-width: 500px;
+  z-index: -2;
+}
+
+.meme-text-container {
+  position: absolute;
+  z-index: -1;
+}
+
+.meme-text {
+  font-family: "Impact";
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+}
+
+.meme-text-top {
+  top: 5%;
+}
+
+.meme-text-bottom {
+  bottom: 5%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="formarea">
+    <div id="heading">
+      <h1>Let's Make Some Memes! Yay!</h1>
+      <h2>Please, fill out the form to embrace the creature of fun</h2>
+    </div>
+    <div id="data">
+      <form id="form">
+        <div id="form-inputs">
+          <div id="inputNames">
+            <label for="image-url">Image URL Address:</label>
+            <label for="top-text">Text On The Top:</label>
+            <label for="bottom-text">Text On The Bottom:</label>
+          </div>
+
+          <div id="inputFields">
+            <input type="url" id="image-url" name="image-url" required>
+            <input type="text" id="top-text" name="top-text" required>
+            <input type="text" id="bottom-text" name="bottom-text" required>
+          </div>
+        </div>
+
+        <div id="footer">
+          <button type="submit" id="submit-button">Create Meme!</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <div id="memes">
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
