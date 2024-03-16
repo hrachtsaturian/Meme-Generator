@@ -62,10 +62,10 @@ form.addEventListener('submit', function(event) {
   const image = createImage(imageURL);
 
   const topTextContainer = createTextContainer(topText);
-  topTextContainer.classList.add("meme-text-bottom");
+  topTextContainer.classList.add("meme-text-top");
 
   const bottomTextContainer = createTextContainer(bottomText);
-  bottomTextContainer.classList.add("meme-text-top");
+  bottomTextContainer.classList.add("meme-text-bottom");
 
   memeContainer.appendChild(topTextContainer)
   memeContainer.appendChild(bottomTextContainer)
